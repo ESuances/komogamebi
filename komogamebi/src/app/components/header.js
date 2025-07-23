@@ -7,11 +7,14 @@ export default function Header() {
         <Image
           src="/komogamebi.png"
           alt="Komogamebi logo"
-          width={200}
-          height={200}
+          width={150}
+          height={150}
           className="mr-3"
         />
       </div>
+      <nav className="flex space-x-4">
+        <p className="text-lg font-semibold">Made by ESuances :D</p>
+      </nav>
     </header>
   );
 }

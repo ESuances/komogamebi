@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function MainSearchBar() {
   return (
     <div
-      className="flex flex-col items-center justify-center p-10"
+      className="flex flex-col items-center justify-center p-10 w-full"
       style={{
-        backgroundImage: "url('/br1.png')",
+        backgroundImage: "url('/br2.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -22,10 +22,19 @@ export default function MainSearchBar() {
         <form className="w-full max-w-md">
           <input
             type="text"
-            placeholder="Enter game title"
+            placeholder="Enter game URL"
             className="border border-gray-300 p-2 rounded-md w-full"
           />
         </form>
+        <br />
+        <form className="w-full max-w-md">
+          <input
+            type="text"
+            placeholder="Enter your Email"
+            className="border border-gray-300 p-2 rounded-md w-full"
+          />
+        </form>
+        <br />
         <button className="mt-2 bg-black text-white py-2 px-4 rounded-md">
           Search
         </button>
