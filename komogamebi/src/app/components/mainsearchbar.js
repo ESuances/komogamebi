@@ -24,7 +24,7 @@ export default function MainSearchBar() {
             type="text"
             placeholder="Enter game URL"
             className="border border-gray-300 p-2 rounded-md w-full"
-          />
+          />º
         </form>
         <br />
         <form className="w-full max-w-md">
